@@ -1,1 +1,2 @@
 # Cavity-Map
+This C# program identifies “cavities” in a square grid of numbers, where a cavity is a cell that is strictly greater than its adjacent cells (up, down, left, right) and not on the border. The `cavityMap` function iterates through the grid (excluding edges), replacing cavity values with 'X'. The `Main` method reads the grid input, calls the function, and prints the resulting grid with cavities marked.
